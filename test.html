@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Vision Salon by MarCon</title>
+    <style>
+        .container {
+            display: flex; 
+            flex-direction: column;    /* Stacks items vertically */
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0;
+        }
+
+        .ad-image {
+            max-width: 80%;    /* Image scales down on smaller screens */
+            height: auto;      /* Maintain aspect ratio */
+            border-radius: 8px;
+            display: block;    /* Ensures proper spacing */
+            margin-bottom: 20px; /* Space between the two images */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- First clickable image -->
+        <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+            <img class="ad-image" src="https://rosebud-ads.s3.us-east-2.amazonaws.com/ad-normal-vs.png" alt="Vision Salon Ad 1">
+        </a>
+
+        <!-- Second clickable image -->
+        <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+            <img class="ad-image" src="https://rosebud-ads.s3.us-east-2.amazonaws.com/ad-normal-mm.png" alt="Vision Salon Ad 2">
+        </a>
+    </div>
+</body>
+</html>
